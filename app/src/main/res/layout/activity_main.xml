@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFF00"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:padding="8dp"
+        android:text="Hello Toast"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TOAST"
+        android:layout_marginTop="16dp"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/tv_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textColor="#3F51B5"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btn_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#3F51B5"
+        android:text="COUNT"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
